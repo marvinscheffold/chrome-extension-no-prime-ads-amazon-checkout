@@ -1,0 +1,12 @@
+{
+  "name": "No Prime Ads in Amazon Checkout",
+  "manifest_version": 3,
+  "version": "0.1",
+  "description": "Removes amazon prime adds during checkout",
+  "content_scripts": [
+    {
+      "js": ["scripts/index.js"],
+      "matches": ["https://www.amazon.de/*"]
+    }
+  ]
+}
